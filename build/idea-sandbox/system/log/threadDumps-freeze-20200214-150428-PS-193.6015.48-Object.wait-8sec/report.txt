@@ -1,0 +1,4 @@
+ java.lang.Thread.run 100ms
+  sun.java2d.opengl.OGLRenderQueue$QueueFlusher.run 100ms
+   sun.java2d.opengl.OGLRenderQueue.flushBuffer 100ms
+    sun.java2d.opengl.OGLRenderQueue.flushBuffer 100ms

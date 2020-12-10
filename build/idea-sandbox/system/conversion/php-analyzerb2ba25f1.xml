@@ -1,0 +1,18 @@
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/workspace.xml" timestamp="1582548292169" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/php-analyzer.iml" timestamp="1579303199299" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/php.xml" timestamp="1579340058473" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/php-test-framework.xml" timestamp="1563298169405" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/modules.xml" timestamp="1563292401458" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/misc.xml" timestamp="1563292401447" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/php-inspections-ea-ultimate.xml" timestamp="1563294646152" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/symfony2.xml" timestamp="1564689904731" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/isfett-phpanalyzer-plugin.xml" timestamp="1580763067071" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/webResources.xml" timestamp="1563298126921" />
+    <file path="/Users/christopher.stenke/www/php-analyzer/.idea/vcs.xml" timestamp="1563292401451" />
+  </project-files>
+</conversion>

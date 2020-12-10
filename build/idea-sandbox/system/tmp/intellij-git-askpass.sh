@@ -1,0 +1,2 @@
+#!/bin/sh
+"/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java" -cp "/Applications/PhpStorm 2019.3 EAP.app/Contents/plugins/git4idea/lib/git4idea-rt.jar:/Applications/PhpStorm 2019.3 EAP.app/Contents/lib/xmlrpc-2.0.1.jar:/Applications/PhpStorm 2019.3 EAP.app/Contents/lib/commons-codec-1.13.jar:/Applications/PhpStorm 2019.3 EAP.app/Contents/lib/util.jar" org.jetbrains.git4idea.http.GitAskPassApp "$@"

@@ -1,0 +1,22 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="193.6015" until-build="193.*"/>
+  <id>com.isfett.isfett-php-analyzer</id>
+  <name>Isfett PHP-Analyzer</name>
+  <vendor email="chris@isfett.com" url="http://www.github.com/isfett">isfett</vendor>
+  <description>
+    Plugin for CLI-Tool &lt;a href="https://www.github.com/isfett/php-analyzer"&gt;github.com/isfett/php-analyzer&lt;/a&gt;
+    </description>
+  <depends>com.jetbrains.php</depends>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <projectConfigurable nonDefaultProject="true" instance="com.isfett.PHPAnalyzerSettings" parentId="reference.webide.settings.project.settings.php"/>
+    <projectService serviceImplementation="com.isfett.PHPAnalyzerSettingsProvider"/>
+    <localInspection language="PHP" groupPath="PHP" shortName="magic-number-detector" displayName="Magic Number Detector" groupName="Isfett PHP-Analyzer" enabledByDefault="false" level="WARNING" implementationClass="com.isfett.inspections.MagicNumberInspection"/>
+    <localInspection language="PHP" groupPath="PHP" shortName="magic-string-detector" displayName="Magic String Detector" groupName="Isfett PHP-Analyzer" enabledByDefault="false" level="WARNING" implementationClass="com.isfett.inspections.MagicStringInspection"/>
+  </extensions>
+  <actions/>
+</idea-plugin>

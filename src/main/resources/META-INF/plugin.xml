@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>com.isfett.isfett-php-analyzer</id>
+    <name>Isfett PHP-Analyzer</name>
+    <vendor email="chris@isfett.com" url="http://www.github.com/isfett">isfett</vendor>
+
+    <description><![CDATA[
+    Plugin for CLI-Tool <a href="https://www.github.com/isfett/php-analyzer">github.com/isfett/php-analyzer</a>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.jetbrains.php</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <projectConfigurable nonDefaultProject="true" instance="com.isfett.PHPAnalyzerSettings" parentId="reference.webide.settings.project.settings.php" />
+        <projectService serviceImplementation="com.isfett.PHPAnalyzerSettingsProvider"/>
+
+        <localInspection language="PHP" groupPath="PHP"
+                         shortName="magic-number-detector"                displayName="Magic Number Detector"
+                         groupName="Isfett PHP-Analyzer"                                   enabledByDefault="false" level="WARNING"
+                         implementationClass="com.isfett.inspections.MagicNumberInspection"/>
+        <localInspection language="PHP" groupPath="PHP"
+                         shortName="magic-string-detector"                displayName="Magic String Detector"
+                         groupName="Isfett PHP-Analyzer"                                   enabledByDefault="false" level="WARNING"
+                         implementationClass="com.isfett.inspections.MagicStringInspection"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

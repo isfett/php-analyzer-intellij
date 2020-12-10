@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/www/testarea">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1P2pnMaYinL6cviPMTdBKe64C6D">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-193.6015.48" />
+              <option name="buildTimestamp" value="1579698126494" />
+              <frame x="246" y="55" width="1400" height="926" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1582362317495" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/www/php-analyzer">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1OpEV4QWuuGzqHWjOEO9tlyPsHc">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-193.6015.48" />
+              <option name="buildTimestamp" value="1579698120885" />
+              <frame x="2204" y="97" width="1400" height="926" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1582623602627" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/www/php-analyzer" />
+        <option value="$USER_HOME$/www/testarea" />
+      </list>
+    </option>
+  </component>
+</application>

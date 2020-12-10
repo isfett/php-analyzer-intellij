@@ -1,0 +1,14 @@
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/christopher.stenke/www/testarea/.idea/php-inspections-ea-ultimate.xml" timestamp="1574427776829" />
+    <file path="/Users/christopher.stenke/www/testarea/.idea/misc.xml" timestamp="1565082215346" />
+    <file path="/Users/christopher.stenke/www/testarea/.idea/testarea.iml" timestamp="1580393195185" />
+    <file path="/Users/christopher.stenke/www/testarea/.idea/modules.xml" timestamp="1565082215354" />
+    <file path="/Users/christopher.stenke/www/testarea/.idea/isfett-phpanalyzer-plugin.xml" timestamp="1580633191053" />
+    <file path="/Users/christopher.stenke/www/testarea/.idea/php.xml" timestamp="1580393195187" />
+    <file path="/Users/christopher.stenke/www/testarea/.idea/workspace.xml" timestamp="1582362321517" />
+  </project-files>
+</conversion>
